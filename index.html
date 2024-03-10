@@ -9,5 +9,15 @@
 <body>
   <h2>Freedom</h2>
   <div class="container"></div>
+
+  <script>
+    let container = document.querySelector('.container');
+    let count = 100;
+    for (let i = 0; i < count; i++) {
+      let box = document.createElement('div');
+      box.className = 'box';
+      container.appendChild(box)
+    }
+  </script>
 </body>
 </html>
